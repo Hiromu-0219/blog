@@ -1,0 +1,103 @@
+/* contactについて */
+.contact {
+    padding-top: 50px;
+}
+.title-contact {
+    border-top: dotted 2px #454545;
+    padding: 30px 0;
+    font-size: 40px;
+    text-align: center;
+    /* margin-bottom: 80px; */
+}
+.contact-box {
+    background-color: #e0e0e0;
+    padding: 50px 0 30px;
+    border-radius: 5px;
+    width: 50%;
+    margin: 0 auto;
+}
+a.btn_06 {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50px;
+    box-sizing: border-box;
+    background: repeating-linear-gradient(
+        45deg,
+        #ffffff,
+        #ffffff 3px,
+        #e7e7e7 3px,
+        #e7e7e7 30px
+    );
+    color: #333;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    position: relative;
+    border-radius: 5px;
+}
+a.btn_06 span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    transition-duration: 0.2s;
+    border-radius: 5px;
+}
+a.btn_06:hover span {
+    left: -1px;
+    top: -1px;
+}
+.contact-text {
+    font-size: 16px;
+    font-weight: 600;
+    width: 80%;
+    margin: 50px auto 0;
+    text-align: center;
+}
+.contact-text p {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+.footer-img {
+    width: 50%;
+    margin: 100px auto;
+    padding: 100px 0 100px;
+    background-image: url(../img/blog-logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.copyright {
+    padding: 20px 0;
+    border-top: solid 1px #454545;
+    display: block;
+    text-align: center;
+}
+@media screen and (max-width: 1100px) {
+    .contact {
+        margin-top: 0px;
+    }
+    .contact-box {
+        width: 90%;
+    }
+    a.btn_06 {
+        width: 70%;
+    }
+    .footer-img {
+        width: 95%;
+        padding: 50px 0;
+        margin: 50px auto;
+    }
+}

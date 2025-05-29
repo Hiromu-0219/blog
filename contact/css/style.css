@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Noto Sans JP", sans-serif;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pop-1 {
+    font-family: "Walter Turncoat", cursive;
+}
+.pop-2 {
+    font-family: "Sacramento", cursive;
+}
+.pop-3 {
+    font-family: "Roboto Slab", serif;
+}
+.box {
+    background-color: rgb(214, 214, 214);
+    width: clamp(400px, 50%, 600px);
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.title-box {
+    padding: 2% 3%;
+}
+.title {
+    font-size: 40px;
+}
+.sub-title {
+    font-size: 20px;
+    position: relative;
+    top: -5px;
+    left: 2%;
+}
+.ex-text {
+    text-align: center;
+    color: rgb(255, 72, 0);
+    font-size: 18px;
+    font-weight: 500;
+}
+form {
+    width: 90%;
+    margin: 0 auto;
+}
+.form-list {
+    margin: 5px 0;
+}
+.form-list label {
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Roboto Slab", serif;
+}
+.form-list p {
+    font-size: 18px;
+    font-weight: 500;
+}
+.checkList {
+    font-family: "Noto Sans JP", sans-serif;
+}
+.form-list input {
+    width: 100%;
+    border: none;
+    border-bottom: solid 2px black;
+    height: 30px;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.form-list textarea {
+    resize: none;
+    width: 100%;
+    padding: 10px;
+    height: 100px;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.submit {
+    justify-content: center;
+    text-align: center;
+    margin: 10px 0;
+}
+.submit input {
+    width: 40%;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(146, 212, 255);
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.submitBotton {
+    display: inline-block;
+    width: 40%;
+    padding: 5px;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(251, 100, 100);
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
